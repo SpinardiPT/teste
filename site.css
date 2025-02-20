@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d6ad3b;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+.header-content {
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+.motivational-text {
+    text-align: center;
+    margin: 50px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.my-evolution {
+    text-align: center;
+    font-size: 30px
+    font-we
+}
+
+.photos-section, .client-photos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 20px;
+}
+
+.photos-section img, .client-photos img {
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-section {
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.video-section video {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.inquiry-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.inquiry-button button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.inquiry-button button:hover {
+    background-color: #0056b3;
+}
